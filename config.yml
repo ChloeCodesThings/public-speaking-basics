@@ -17,7 +17,7 @@ steps:
   - title: Meet your instructor
     description: 'Get details on the course, your instructor, etc!'
     event: issues.closed
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: createIssue
         title: Issue 2!
