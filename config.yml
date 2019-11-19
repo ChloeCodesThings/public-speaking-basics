@@ -1,0 +1,17 @@
+title: Public Speaking Basics
+tagline: A brand new course on Learning Lab
+description: "In this course \U0001F4D6, you’ll learn all about what makes a good public speaker \U0001F5E3 And how to apply those skills to your own presentations!"
+template:
+  repo: public-speaking-basics-template
+  name: public-speaking-basics
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
