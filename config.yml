@@ -22,3 +22,9 @@ steps:
       - type: createIssue
         title: Issue 2!
         body: issue-2.md
+        action_id: issue2
+      - type: respond
+        issue: Welcome!
+        with: comment1.md
+        data:
+          url: '%actions.issue2.data.html_url%'
